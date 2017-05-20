@@ -1,0 +1,2 @@
+Rollup and cube are the grouping sets used along with GROUP BY clause to generate summarized aggregations. 
+These are mainly used for Data Audits and Report Generation.
