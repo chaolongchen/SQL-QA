@@ -1,0 +1,10 @@
+When GROUP BY is not used, 
+the WHERE and HAVING clauses are essentially equivalent.
+
+However, when GROUP BY is used:
+
+The WHERE clause is used to filter records from a result. 
+The filtering occurs before any groupings are made.
+
+The HAVING clause is used to filter values from a group 
+(i.e., to check conditions after aggregation into groups has been performed).
