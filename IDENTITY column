@@ -1,0 +1,11 @@
+The limitations of the IDENTITY column is that column values cannot be updated once generated. 
+Also, it may require to specify this column as a PRIMARY KEY, 
+as such, there is a possibility of duplication of values within a table.  
+Identity property is applicable for integer based column only.
+
+Creating an Identity Column
+
+In it's simplest form an identity column creates a numeric sequence for you. You can specify a column as an identity in the CREATE TABLE statement:
+
+CREATE TABLE dbo.Yaks ( YakID smallint identity(7,2), YakName char(20) )
+The identity clause specifies that the column YakID is going to be an identity column. The first record added will automatically be assigned a value of 7 (the seed) and each subsequent record will be assigned a value 2 higher (the increment) than the previous inserted row. Most identity columns I see are specified as IDENTITY(1,1) but I used IDENTITY(7,2) so the difference would be clear. If you don't specify the identity and seed they both default to 1. Identity columns can be int, bigint, smallint, tinyint, or decimal or numeric with a scale of 0 (i.e. no places to the right of the decimal).
