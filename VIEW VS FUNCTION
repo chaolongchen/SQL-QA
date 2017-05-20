@@ -1,0 +1,9 @@
+Difference Between Views and User Defined Functions:
+
+Views and User-Defined Functions almost serve the same purpose. 
+But the major difference is that User-Defined Function can accept parameters, where as Views cannot. 
+And also the output of the User Defined Function can be directly used in the SELECT clause, 
+whereas you cannot do it with a View.
+
+Views are nothing but saved SQL statements, and are sometimes referred as Virtual Tables. 
+Keep in mind that Views cannot store data rather they only refer to data present in tables.
