@@ -1,0 +1,5 @@
+A primary key, also called a primary keyword, is a key in a relational database that is unique for each record. 
+It is a unique identifier, such as a driver license number, telephone number (including area code), 
+or vehicle identification number (VIN). 
+A relational database must always have one and only one primary key. 
+Primary keys typically appear as columns in relational database tables.
