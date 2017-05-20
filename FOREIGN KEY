@@ -1,0 +1,6 @@
+A FOREIGN KEY is a key used to link two tables together.
+
+A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
+
+The table containing the foreign key is called the child table, 
+and the table containing the candidate key is called the referenced or parent table.
